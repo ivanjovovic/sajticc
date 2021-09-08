@@ -1,0 +1,12 @@
+@mixin background-size($bg-size) {
+	-webkit-background-size: $bg-size;
+	-moz-background-size: $bg-size;
+	-o-background-size: $bg-size;
+	background-size: $bg-size;
+}
+
+@mixin text-align-last($tal) {
+	text-align-last: $tal;
+	-moz-text-align-last: $tal;
+	-ms-text-align-last: $tal;
+}
