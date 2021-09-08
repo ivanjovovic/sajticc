@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Apartman u Budvi</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="property-styles.css" type="text/css" rel="Stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+  <main>
+
+
+    <section id="main-property">
+      <div id="property-details" class="flex container">
+        <div class="address-container flex">
+          <div class="home-icon">
+            <span class="fa fa-home"></span>
+          </div>
+          <div>
+            <address>
+              <strong>Apartman u Budvi</strong>
+              <small>Stari grad, Budva bb</small>
+            </address>
+            <small class="status"><span class="for-sale"></span> Na prodaju</small>
+          </div>
+          <small class="year-built-sm">Postavljeno na Home4You: 9 dana</small>
+        </div>
+
+        <div class="property-stats-container flex">
+          <div class="price">
+            <div class="padded-inner-container">
+              <strong>120.000</strong>
+              <small>Cijena</small>
+            </div>
+          </div>
+          <div class="beds">
+            <div class="padded-inner-container">
+              <strong>2</strong>
+              <small>Sobe</small>
+            </div>
+          </div>
+          <div class="baths">
+            <div class="padded-inner-container">
+              <strong>1</strong>
+              <small>Kupatilo</small>
+            </div>
+          </div>
+          <div class="sqft">
+            <div class="padded-inner-container">
+              <strong>70 <small>m2</small></strong>
+              <small>Kvadratura</small>
+            </div>
+          </div>
+          <small class="year-built">Objavljeno na Home4You: 9 dana</small>
+        </div>
+
+        <div class="actions-container flex">
+          <div class="favorite">
+            <button><span class="fa fa-heart"></span></button>
+            <small>Omiljeno</small>
+          </div>
+          <div class="share">
+            <button><span class="fa fa-share"></span></button>
+            <small>Uporedi</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Start: image slider -->
+      <div id="property-image-slider" class="slick">
+
+        <div>
+          <img src="images/property-img-2.jpg" alt="Property Image 2" />
+        </div>
+        <div>
+          <img src="images/property-img-3.jpg" alt="Property Image 3" />
+        </div>
+        <div>
+          <img src="images/property-img-4.jpg" alt="Property Image 4" />
+        </div>
+        <div>
+          <img src="images/property-img-5.jpg" alt="Property Image 5" />
+        </div>
+        <div>
+          <img src="images/property-img-6.jpg" alt="Property Image 6" />
+        </div>
+        <div>
+          <img src="images/property-img-7.jpg" alt="Property Image 7" />
+        </div>
+        <div>
+          <img src="images/property-img-8.jpg" alt="Property Image 8" />
+        </div>
+        <div>
+          <img src="images/property-img-9.jpg" alt="Property Image 9" />
+        </div>
+      </div>
+      <!-- End: image slider -->
+
+      <!-- Start: map -->
+      <div id="map"></div>
+      <!-- End: map -->
+
+      <!-- Start: street view -->
+      <div id="street"></div>
+      <!-- End: street view -->
+
+      <div class="slider-options-container flex">
+        <a id="image-view" href="javascript:;">
+          <div class="image-fade"><span>Slike</span></div>
+          <img src="images/image-view.jpg" alt="Show Images" />
+        </a>
+
+        <a id="map-view" href="javascript:;">
+          <div class="image-fade"><span>Mapa</span></div>
+          <img src="images/map-view.jpg" alt="Show Map View" />
+        </a>
+
+        <a id="street-view" href="javascript:;">
+          <div class="image-fade"><span>Ulica</span></div>
+          <img src="images/street-view.jpg" alt="Show Street View" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <section id="property-description">
+    <div class="flex container">
+      <div class="description">
+        <h3>O nekretnini</h3>
+        <p>
+
+          Za prodaju dvosoban stan 70m2, Budva.
+
+Stan se nalazi na 1.spratu u zgradi koja ne posjeduje lift.
+
+Klimatizovan je i prodaje se u viđenom stanju.
+
+Orijentisan je istočno.
+
+Struktura stana: ulazni hodnik, dnevni boravak, trpezarija i kuhinja, spavaća soba, kupatilo i velika terasa.
+        </p>
+      </div>
+
+      <div class="listed-by-container">
+        <h3>Objavljeno:</h3>
+        <img src="images/11.jpg" alt="Listing Agent Marko Markovic" />
+        <div class="agentt">
+          <a href="#">Marko Markovic</a> - Home4You
+          <small>Agent</small>
+        </div>
+        <button id="ask-a-question">Postavi pitanje</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="naslov">
+    <h1>Informacije o nekretnini</h1>
+
+  </div>
+  <div class="table-box">
+
+
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>ID</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">53810</a>
+      </div>
+    </div>
+
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Grad</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">Budva</a>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Oblast</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">Stari grad</a>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Kvadratura</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">70m2</a>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Broj kupatila</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">1</a>
+      </div>
+    </div>
+
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Broj soba</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="">2</a>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Broj balkona</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="https://www.youtube.com/watch?v=lacpTQuE9u8">2</a>
+      </div>
+    </div>
+
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>WIFI</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="https://www.youtube.com/watch?v=4cr85kvM8I0">Da</a>
+      </div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Klima</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="https://www.youtube.com/watch?v=4cr85kvM8I0">Da</a>
+      </div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell first-cell">
+        <p>Dodatno</p>
+      </div>
+
+      <div class="table-cell last-cell">
+        <a href="https://www.youtube.com/watch?v=4cr85kvM8I0">Novogradnja</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid foot-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 foot-left" id="kontakt">
+                    <h2><span>KONTAKT</span> FORMA</h2>
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <input type="text" name="ime" placeholder="Ime i prezime" required="required">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="text" name="email" placeholder="E-mail adresa" required="required">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="text" name="telefon" placeholder="Broj telefona" required="required">
+                            </div>
+                            <div class="col-12">
+                                <textarea name="poruka" id="message" cols="30" rows="10"
+                                    placeholder="Poruka"></textarea>
+                            </div>
+                            <div class="col-12 antispam">
+
+                                <button name="send">Pošalji</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6 foot-left">
+                    <h2><span>KONTAKT</span> INFORMACIJE</h2>
+                    <p>
+                        <span><img src="theme/images/mail.png" alt="icon"></span> <a
+                            href="mailto:office@home4youoffice@gmail.com">home4youoffice@gmail.com</a>
+                    </p>
+                    <p>
+                        <span><img src="theme/images/phone.png" alt="icon"></span> <a href="tel:
++38268616777">
+                            +38268616777</a>
+                    </p>
+                    <p>
+                        <span><img src="theme/images/phone.png" alt="icon"></span> <a href="tel:
++38267444357">
+                            +38267444357</a>
+                    </p>
+                    <p>
+                        <span><img src="theme/images/phone.png" alt="icon"></span> <a href="tel:
++38268077744">
+                            +38268077744</a>
+                    </p>
+                    <p>
+                        <span><img src="theme/images/map-marker.png" alt="icon"></span>
+                        Budva, Zavala, Harmonia
+                    </p>
+                    <div class="footer-soc">
+                        <a target="blank" href="https://www.facebook.com/home4youbudva-110603220377627/"><img
+                                src="f.png" alt=""></a>
+                        <a target="blank" href="https://www.youtube.com/channel/UCXk6IPLAyeeRcvXtoerLc0A"><img
+                                src="y.png" alt=""></a>
+                        <!--<a target="blank" href="#x"><i class="fa fa-linkedin"></i></a>-->
+                        <a target="blank" href="https://www.instagram.com/home4you.me/"><img src="i.png" alt=""></a>
+                    </div>
+                    <a href="#x" id="btt"><img src="gore.png" alt="back to top"></a>
+                </div>
+                <div class="col-12 copyright-wrap">
+                    <div class="copyright">
+                        &copy; 2021 4UP | All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
+
+</body>
+
+
+<script src="script3.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=<Your API Key Here>&callback=initMap"></script>
+
+</html>

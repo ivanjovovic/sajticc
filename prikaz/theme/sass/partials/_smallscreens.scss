@@ -1,0 +1,205 @@
+@media screen and (max-width: 1199px) {
+	.user-actions-wrap .user-actions {
+		font-size: 16px;
+	}
+	.user-actions-wrap .user-actions .price-up i,
+	.user-actions-wrap .user-actions .price-down i {
+		font-size: 30px;
+	}
+	.property-item-wrap .prop-img-wrap .rent-sale {
+		font-size: 14px;
+	}
+	.property-item-wrap .prop-info-wrap .price-readmore-wrap .price-readmore span,
+	.property-item-wrap .prop-info-wrap .price-readmore-wrap .price-readmore a {
+		font-size: 14px;
+	}
+	.property-item-wrap .prop-info-wrap h3 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.menu-wrap {
+		position: relative;
+		.menu {
+			.navbar {
+				padding-top: 0;
+				padding-bottom: 0;
+				.navbar-toggler {
+					outline: none;
+					border: none;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+	.menu-wrap .menu .navbar .navbar-brand img {
+		max-height: 50px;
+	}
+	.menu-wrap .menu .navbar .nav-item .nav-link {
+		font-size: 16px;
+		padding-left: 0;
+		padding-right: 0;
+		display: block;
+		text-align: center;
+		border: none;
+		&:hover {
+			border: none;
+		}
+	}
+	.menu-wrap .menu .navbar .lang {
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form-wrap {
+		width: 100%;
+	}
+	.form {
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.form-title {
+		width: 100%;
+	}
+	.form-fields-wrap .form-field {
+		margin: 0;
+		width: 100%;
+		float: none;
+	}
+	.form-fields-wrap .form-field button {
+		margin-top: 15px;
+	}
+	.form-title {
+		padding: 0;
+	}
+	.form-title h3 {
+		cursor: pointer;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.form-title h3 .open-small-form {
+		display: inline-block;
+	}
+	.form-fields-wrap {
+		display: none;
+	}
+	.user-actions-wrap {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.user-actions-wrap .user-actions {
+		justify-content: flex-start;
+		margin-top: 15px;
+	}
+	.foot-left {
+		margin-top: 15px;
+	}
+	.detail-right {
+		padding-top: 30px;
+	}
+	.inner-title {
+		position: relative;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		h1 {
+			color: #2a2a2a;
+			font-size: 30px;
+		}
+	}
+	.about-section img {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.about-section {
+		padding-top: 0;
+	}
+	.about-section-fluid {
+		margin-bottom: 40px;
+	}
+	.foot-wrap.contact-main-wrap {
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.form-fields-wrap {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.user-actions-wrap h2 {
+		font-size: 20px;
+	}
+	.user-actions-wrap img {
+		max-height: 40px;
+	}
+	.form-title h3 {
+		font-size: 20px;
+	}
+	.front-about-wrap h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.front-about-wrap img {
+		margin-top: 30px;
+	}
+	.menu-wrap .menu .navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.menu-wrap .menu .navbar .navbar-toggler {
+		padding-right: 0;
+		margin-right: -15px;
+	}
+	.property-item-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.pagination-wrap {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#sync2 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.user-actions-wrap .user-actions {
+		display: block;
+		span {
+			a {
+				display: block;
+				border: none;
+			}
+		}
+	}
+	.foot-wrap .antispam button {
+		width: 100%;
+	}
+	.pagination-wrap .pagination .page-link {
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+	}
+	.inner-user-actions-wrap {
+		h2 {
+			display: block;
+		}
+		img {
+			display: block;
+			margin-bottom: 15px;
+		}
+	}
+	.detail-infos .col-6 {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 14px;
+	}
+}
